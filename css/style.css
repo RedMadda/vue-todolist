@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    width: 20%;
+}
+
+.logo,
+.input,
+.todoList{
+    
+    margin-left: 50%;
+    margin-top: 30px;
+    transform: translateX(-50%);
+}
+
+.input{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.input input,
+button{
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+input{
+    width: 300px;
+}
+
+button:hover,
+li > i:hover{
+    cursor: pointer;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul > li{
+    padding: 5px 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    position: relative;
+}
+
+ul > li:hover{
+    background-color: beige;
+}
+
+li > i{
+    position: absolute;
+    right: 5%;
+}
